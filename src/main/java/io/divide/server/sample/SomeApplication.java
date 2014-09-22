@@ -23,7 +23,7 @@ import io.divide.server.AuthApplication;
 public class SomeApplication extends AuthApplication<OrientDBDao> {
 
     public SomeApplication() {
-        super(OrientDBDao.class, "yourKey");
+        super(OrientDBDao.class, "yourEncryptionKey");
     }
 
 }
