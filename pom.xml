@@ -6,7 +6,6 @@
         <groupId>io.divide</groupId>
         <artifactId>parent</artifactId>
         <version>0.5.2</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <packaging>war</packaging>
     <artifactId>server-sample</artifactId>
