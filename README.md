@@ -9,18 +9,18 @@ AWS and more server examples coming soon!
 
 ### Basic Usage
 ```java
-public class SomeApplication extends AuthApplication<OrientDBDao> {
+public class SomeApplication extends AuthApplication<ObjectifyDAO> {
 
     private String encryptionKey = "someKeyForSynchronousEncryption";
 
     public SomeApplication() {
     	// dao class
-        super(OrientDBDao.class, encryptionKey);
+        super(ObjectifyDAO.class, encryptionKey);
     }
     
     public SomeApplication() {
         // dao instance
-        super(new OrientDBDao(), encryptionKey);
+        super(new ObjectifyDAO(), encryptionKey);
     }
 }
 ```
